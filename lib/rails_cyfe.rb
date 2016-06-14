@@ -4,16 +4,12 @@ require 'httparty'
 require 'net/http'
 
 module  Cyfe
-
 	class Rails_cyfe
-	
-
 		def push_uri(uri)
 			@uri = uri
 		end
 
 		def counter(count)
-
 			uri = URI(@uri)
 			http = Net::HTTP.new(uri.host, uri.port)
 			http.use_ssl = true
@@ -22,7 +18,6 @@ module  Cyfe
 			request.body = count
 			resp = http.request(request)
 		end
-		
 	end
 end
 
