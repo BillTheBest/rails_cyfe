@@ -1,6 +1,6 @@
 # RailsCyfe
 
-This gem provide intregration of Ruby on Rails projects with Cyfe Dashboard. In this custom widget are made with push API you can send your data in JSON format. 
+This gem provide intregration of Ruby on Rails projects with Cyfe Dashboard. In this custom widget are made with push API, you can send your data in JSON format. 
 
 ## Installation
 
