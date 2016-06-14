@@ -6,13 +6,13 @@ require 'rails_cyfe/version'
 Gem::Specification.new do |spec|
   spec.name          = "rails_cyfe"
   spec.version       = Cyfe::VERSION
-  spec.authors       = ["tanaysh"]
-  spec.email         = ["tanay.sharma@sprytechies.com"]
+  spec.authors       = ["sortfolio"]
+  spec.email         = ["dev@sortfolio.com"]
 
-  spec.summary     = "API wrapper "
-  spec.description = "http://github.com/jhsu"
+  spec.summary       = "Simple Cyfe API wrapper"
+  spec.description   = "http://github.com/Sortfolio/rails_cyfe"
 
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "http://github.com/Sortfolio/rails_cyfe"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
